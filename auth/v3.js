@@ -90,7 +90,8 @@ module.exports = class V3Auth extends AuthBase {
   storageUrl(response) {
     let type = "object-store"
     let endpointType = this.data.endpointType || "public"
-    let region = ""
+    let region = this.data.region || ""
+
 
     if (!response.body.token.catalog) {
       throw new Error("body.token.catalog not found")

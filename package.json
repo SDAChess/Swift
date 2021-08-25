@@ -1,6 +1,6 @@
 {
   "name": "client-swift",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Object Storage OpenStack Swift client for Node.js",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "openstack-storage",
     "swift"
   ],
-  "author": "matsune",
+  "author": "SDAChess's fork of matsune",
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.0"
